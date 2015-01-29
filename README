@@ -1,0 +1,5 @@
+Multi-panel display signs.
+
+(WIP)
+
+Plan: place arbitrary number of signs in a row.  Digilines input from controller to rightmost sign block. each block automaticlly pushes current datum left when receiving new input.  If leftmost block then datum lost to the void.  Controller cycles through string outputing 1 character per second.   
